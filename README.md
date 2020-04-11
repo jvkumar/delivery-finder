@@ -58,6 +58,6 @@ If you see any error, then it means you need to correctly put your values of key
 Thats all!!
 
 ## What to expect next.
-This finder will keep checking the When there will be an availability, you may hear a buzzing sound. Then you just go to the opened instacart checkout page and refresh it. You may see the availability window.
+This finder will keep checking the When there will be an availability, you may hear a buzzing sound. Then you just go to the opened instacart checkout page (as mentioned in step 7) and refresh it. You may see the availability window.
 
 
