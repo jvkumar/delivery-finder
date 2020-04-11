@@ -18,7 +18,7 @@ $ cd covid19
 Move the downloaded folder `delivery-finder`  (as done in Step0-b above) in `covid19` folder
 
 ## Step 2
-Go to instacart.com and login and add all your items in the shopping cart.
+Go to instacart.com and login to your account. Take your time to add all your items in the shopping cart. Once you have all your desired items in the cart, then move to `Step 3`
 
 ## Step 3
 Go to your cart page
