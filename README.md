@@ -69,7 +69,7 @@ If you see any error, then it means you need to correctly put your values of key
 That's all!!
 
 ## What to expect next.
-This finder will keep checking the When there will be an availability, you may hear a buzzing sound. Then you just go to the opened instacart checkout page (as mentioned in step 7) and refresh it. You may see the availability window.
+Leave your computer plugged in and don't close it (let it remain connected to the internet). You may leave it in the low power mode if you wish. Let the terminal window remain opened and you may see a progress there every minute. This finder will keep checking the availability window every minute, you may hear a buzzing sound, when it finds an availability. Then you just go to the opened instacart checkout page (as mentioned in step 7) and refresh it. You may see the availability window.
 
 ## Any developer wants to contribute?
 You are welcome to send the PR
