@@ -9,8 +9,9 @@ Go to https://nodejs.org/en/ and download any version of the binary, that will b
 
 ## Step 1
 Assuming you are on Mac OS, so open a terminal window and create a folder, let's say, `covid19` and 
-repo (or download) this repo
+repo (or download) this repo in covid 19 folder
 ```
+$ mkdir covid19
 $ cd covid19
 ```
 
