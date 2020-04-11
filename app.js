@@ -1,11 +1,10 @@
 //------------------------------------------------------
 //-----------PUT YOUR CONFIGURATION HERE----------------
 //------------------------------------------------------
-const instacart_cookie = 'XXXXXXXXXX'
-const cache_key  = 'XXXXXXXXXX';
-const address_id = 'XXXXXXXXXX';
-let   checking_frequency_in_minutes = 3; //Minimum value is 3 minutes
-
+const instacart_cookie = 'XXXXX'; //replace XXXXX with value of `cookie` you collected in Step 6
+const cache_key  = 'XXXXX'; //replace XXXXX with value of `cache_key` you collected in Step 6
+const address_id = 'XXXXX'; //replace XXXXX with value of `address_id` you collected in Step 6
+let   checking_frequency_in_minutes = 1; //Minimum value is 1 minute
 
 
 //------------------------------------------------------
@@ -14,7 +13,7 @@ let   checking_frequency_in_minutes = 3; //Minimum value is 3 minutes
 const sleep     = require('sleep');
 const https     = require('https')
 const player    = require('play-sound')();
-const min_freq  = 3;
+const min_freq  = 1;
 
 function beep() {
   player.play('beep.mp3', function (err) {
