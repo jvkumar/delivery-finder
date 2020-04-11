@@ -57,7 +57,7 @@ https://github.com/jvkumar/delivery-finder/blob/master/assets/wholesfood2.png)
 <hr>
 
 ## Step 3
-*IMPORTANT* From the previous step you must have values of `cookie`, save it in any text editor (will be used later).
+*IMPORTANT* From the previous step you must have value of `cookie`, save it in any text editor (will be used later).
 
 
 ## Step 4
