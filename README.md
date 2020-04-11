@@ -2,13 +2,13 @@
 ![](
 https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/delivery-finder.png)
 
-This is an effort to help people to get their groceries in this difficult time of COVID-19. This script helps you to find a delivery window of InstaCart (and Amazon `todo`) and alert you when it is available. 
+This is an effort to help people to get their groceries in this difficult time of COVID-19. This script helps you to find a delivery window of InstaCart (and Amazon `todo`) and alert (you will hear this [Beep sound](https://clyp.it/fjrsqftl) as alert) you when it is available. 
 `This is a barebone (non-optimized) script - a quick hack.`
 
 # How to use this finder
 ## Step 0
 *a)* Install `npm` and `nodejs`
-Go to https://nodejs.org/en/ and download any version of the binary, that will be used for installing `node` as well as `npm`. Then double click the downloaded binary and follow the instructions to install `npm` as well as `node`
+Go to https://nodejs.org/en/ and download any version of the binary, that will be used for installing `node` as well as `npm`. Then double click the downloaded binary and follow the instructions to install `npm` as well as `node` . To confirm the installation, open your terminal.app window and run `node -v` if that outputs a version number, then you are good to move forward.
 
 *b)* Download (or clone) this repo by clicking green "Clone or Download" button shown above. If you have downloaded, then unzip the downloaded folder (`delivery-finder-master`) and rename the folder to `delivery-finder` 
 
