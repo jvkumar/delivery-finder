@@ -1,5 +1,5 @@
 //------------------------------------------------------
-//-----------PUT YOUR CONFIGURATION HERE----------------
+//----------- PUT YOUR CONFIGURATION HERE ----------------
 //------------------------------------------------------
 const instacart_cookie = 'XXXXX'; //replace XXXXX with value of `cookie` you collected in Step 6
 const cache_key  = 'XXXXX'; //replace XXXXX with value of `cache_key` you collected in Step 6
@@ -8,7 +8,7 @@ let   checking_frequency_in_minutes = 1; //Minimum value is 1 minute
 
 
 //------------------------------------------------------
-//-----------DO NOT EDIT BELOW THIS LINE----------------
+//----------- DO NOT EDIT BELOW THIS LINE ----------------
 //------------------------------------------------------
 const sleep     = require('sleep');
 const https     = require('https')
