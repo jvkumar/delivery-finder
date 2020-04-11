@@ -1,4 +1,7 @@
 # delivery-finder
+![](
+https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/delivery-finder.png)
+
 This is an effort to help people to get their groceries in this difficult time of COVID-19. This script helps you to find a delivery window of InstaCart (and Amazon `todo`) and alert you when it is available. 
 `This is a barebone (non-optimized) script - a quick hack.`
 
@@ -22,17 +25,17 @@ Go to instacart.com and login to your account. Take your time to add all your it
 
 ## Step 3
 Go to your cart page
-![Follow this step](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/readme/Step1.png)
+![Follow this step](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/Step1.png)
 
 ## Step 4
 On the checkout page, if there is no availability window, then you may see this page, then 
 ![follow these steps](
-https://raw.githubusercontent.com/jvkumar/delivery-finder/master/readme/Step%202%20and%203.png)
+https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/Step%202%20and%203.png)
 
 ## Step 5
 Further 
 ![follow thsese steps](
-https://github.com/jvkumar/delivery-finder/blob/master/readme/Step%204%20and%205.png)
+https://github.com/jvkumar/delivery-finder/blob/master/assets/Step%204%20and%205.png)
 
 ## Step 6
 From the previous step you must have values of
