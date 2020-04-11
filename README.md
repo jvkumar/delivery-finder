@@ -52,6 +52,7 @@ Go to `covid19` folder and then further go to `delivery-finder` subfolder where 
 ## Step 9
 In the `delivery-finder` folder, you would find a file called `app.js`. Open that file in any editor and at the top of the file, you will find keys `instacart_cookie`, `cache_key` and `address_id` on lines 4,5 and 6 respectively.
 Replace `XXXXX` with the values which you got in step 6. Then save the file.
+![example](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/config.png)
 
 ## Step 10
 Now in the terminal window at `/covid19/delivery-finder` folder , run `app.js`
