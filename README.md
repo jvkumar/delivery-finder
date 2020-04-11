@@ -4,16 +4,18 @@ This is an effort to help people to get their groceries in this difficult time o
 
 # How to use this finder
 ## Step 0
-Install `npm` and `nodejs`
-Go to https://nodejs.org/en/ and download any version of the binary, that will be used for installing `node` as well as `npm`. Then click the downloaded binary and follow the instructions to install `npm` as well as `node`
+*a)* Install `npm` and `nodejs`
+Go to https://nodejs.org/en/ and download any version of the binary, that will be used for installing `node` as well as `npm`. Then double click the downloaded binary and follow the instructions to install `npm` as well as `node`
+
+*b)* Download (or clone) this repo by clicking green "Clone or Download" button shown above. If you have downloaded, then unzip the downloaded folder (`delivery-finder-master`) and rename the folder to `delivery-finder` 
 
 ## Step 1
-Assuming you are on Mac OS, so open a terminal window and create a folder, let's say, `covid19` and 
-repo (or download) this repo in covid 19 folder
+Assuming you are on Mac OS, so open a terminal window and create a folder, let's say, `covid19` 
 ```
 $ mkdir covid19
 $ cd covid19
 ```
+Move the downloaded folder `delivery-finder`  (as done in Step0-b above) in `covid19` folder
 
 ## Step 2
 Go to instacart.com and login and add all your items in the shopping cart.
