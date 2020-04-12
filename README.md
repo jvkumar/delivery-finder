@@ -80,7 +80,7 @@ Go to `covid19` folder and then subfolder `delivery-finder` subfolder where this
 In the `delivery-finder` folder, you would find a file called `finder.js`. Open that file in any editor and at the top of the file, you will find keys for three different retailers' cookies (lines 4,5 and 6). Whichever retailer's cookie you collected in step2 above, then replace the value of `XXXXX` with the collected cookie value. You can input multiple retaliers' cookies value by replacing the corresponding `XXXXX`. Then save the file.
 ![example](https://github.com/jvkumar/delivery-finder/blob/master/assets/config1.png)
 
-## Step 10
+## Step 7
 Go to the terminal window at `/covid19/delivery-finder` folder 
 `You will have to open separate terminal windows for finding each retailer's availability window`
 when you are at `/covid19/delivery-finder` folder
