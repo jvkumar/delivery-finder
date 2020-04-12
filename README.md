@@ -5,7 +5,7 @@
 **People are getting frustrated when they don't find grocery delivery window available for the online orders. So they have two options - (1) Step out of the home to buy grocery or (2) Keep checking MANUALLY 24/7 to get lucky to find available delivery window.**
 
 ## Solution: 
-**Run this bot, which will check the availability of delivery window of instacart and Amazon Wholesfood Market and alert you as soon as it finds one.**
+**Run this bot, which will check the availability of delivery window of instacart and Amazon Wholesfood Market every minute and alert you as soon as it finds one.**
 
 <hr>
 
