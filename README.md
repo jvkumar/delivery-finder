@@ -62,7 +62,7 @@ https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/Step%202
 ### Step 2.3
 > On the checkout page, if there is no availability window, then you may see this page, then 
 ![follow this step to collect cookie](
-https://github.com/jvkumar/delivery-finder/blob/master/assets/wholesfood2.png)
+https://github.com/jvkumar/delivery-finder/blob/master/assets/wholesfood2_1.png)
 
 <hr>
 
