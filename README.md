@@ -1,6 +1,5 @@
 # Delivery Finder
-# Mission: 
-# To help people stay in the home to minimize the spread of COVID-19 in the USA! 
+# Mission: To help people stay in the home to minimize the spread of COVID-19 in the USA! 
 
 ## Problem: 
 **People are getting frustrated when they don't find grocery delivery window available for the online orders. So they have two options - (1) Step out of the home to buy grocery or (2) Keep checking MANUALLY 24/7 to get lucky to find available delivery window.**
