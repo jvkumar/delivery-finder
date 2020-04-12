@@ -83,10 +83,17 @@ function pingRetailer(retailer, freqInterval, confirmConfig) {
     resp.on('end', () => {
       let responseString = '';
       if (resp.statusCode != 200){
-        console.error(`** FAILED (CODE1) ** YOU HAVE INCORRECT VALUE OF ${retailer.cookieStr} AT THE TOP LINE OF finder.js`);
+        if (confirmConfig) {
+          console.error(`** FAILED (CODE1) ** YOU HAVE INCORRECT VALUE OF ${retailer.cookieStr} AT THE TOP LINE OF finder.js`);
+        }
         console.error(`Response code: ${resp.statusCode}`);
         if (retailer.responseDataType == 'json') {
-          console.error(JSON.parse(data).error);
+          try { //https://nodejs.org/en/knowledge/errors/what-is-try-catch/#but-wait-isn-t-it-node-js-convention-to-not-use-try-catch
+            //Notorious JSON parsing - but not a show stopper.
+            console.error(JSON.parse(data).error);
+          } catch (e) {
+            console.log(e);
+          }
         } else {
           console.error(data);
         }
