@@ -114,7 +114,7 @@ If you see any error, then it means you need to correctly put the values of cook
 That's all!!
 
 ## What to expect next.
-Leave your computer plugged in and don't close it (let it remain connected to the internet). You may leave it in the low power mode if you wish. Let the terminal window remain opened and you may see progress there every minute. This finder will keep checking the availability window every minute, you may hear a [Beep sound](https://clyp.it/fjrsqftl) when it finds an availability. Then you just go to the opened instacart checkout page (as mentioned in step 7) and refresh it. You may see the availability window.
+Leave your computer plugged in and don't close it (let it remain connected to the internet). You may leave it in the low power mode if you wish. Let the terminal window remain opened and you may see progress there every minute. This finder will keep checking the availability window every minute, you may hear a [Beep sound](https://clyp.it/fjrsqftl) when it finds an availability. Then you just go to the opened instacart checkout page (as mentioned in step 7) and refresh it. You may see the availability window. *Remember there is no guarantee that this script will find a delivery window, unless retailer opens it (common sense) Sometime if you don't act fast enough then even if script alerted the delivery window, but you delayed in taking action, then the window may disappear) :wink:*
 
 ## Any developer wants to contribute?
 You are welcome to send the PR
