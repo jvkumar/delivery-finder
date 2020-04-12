@@ -90,7 +90,13 @@ function pingRetailer(retailer, freqInterval, confirmConfig) {
         } else {
           console.error(data);
         }
-        return;
+        if (confirmConfig) { //return only first time, else continue
+          return;
+        } else {
+          console.log('Retailers server encountered some hiccup, so waiting for 2 minutes before restarting with hope server will come back. If this message keeps showing for more than 5 times, then manually kill the script and start again. In rare case, retailer may expire the cookie, if that is the case, then re-collect the cookie and enter it at top of finder.js again.');
+          // Hoping server response may recover, so lets sleep for 2 minutes, and then restart with user input sleep timing
+          sleep.sleep(2*60);
+        }
       } else if (retailer.cookieStr == 'amazonWholesfoodCookie') {
         //Amazon wholesfood has different check - it returns 200 even cookie is wrong, so need to check the presence of this string
         if (!data.includes('Select a day')) {
