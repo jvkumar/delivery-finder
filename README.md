@@ -15,8 +15,11 @@ https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/delivery
 This is an effort to help people to get their groceries in this difficult time of COVID-19. This script helps you to find a delivery window of InstaCart and Amazon Wholes Food. The finder will alert (you will hear this [Beep sound](https://clyp.it/fjrsqftl) as an alert) you when it finds an availability window is open. 
 *This is a barebone (unoptimized) script - `a quick & dirty hack`. If you are a developer, then feel free to send a PR to improve it*
 
-# How to use this finder
+# How to use this finder 
+### If you have any difficulty in setting up, then send me email at finder@altmails.com 
+
 ## Step 0
+
 *a)* Install `npm` and `nodejs` - 
 To do so, go to https://nodejs.org/en/ and download any version of the binary, that will be used for installing `node` as well as `npm`. Then double click the downloaded binary and follow the instructions to install `npm` as well as `node` . To confirm the installation, open your terminal.app window and run `node -v` if that outputs a version number, then you are good to move forward.
 
