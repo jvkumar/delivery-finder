@@ -1,4 +1,15 @@
-# delivery-finder
+# Delivery Finder
+# Mission: 
+# To help people stay in the home to minimize the spread of COVID-19 in the USA! 
+
+## Problem: 
+**People are getting frustrated when they don't find grocery delivery window available for the online orders. So they have two options - (1) Step out of the home to buy grocery or (2) Keep checking MANUALLY 24/7 to get lucky to find available delivery window.**
+
+## Solution: 
+**Run this bot, which will check the availability of delivery window of instacart and Amazon Wholesfood Market and alert you as soon as it finds one.**
+
+<hr>
+
 ![](
 https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/delivery-finder.png)
 
