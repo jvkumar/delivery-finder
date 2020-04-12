@@ -36,7 +36,7 @@ Move the downloaded folder `delivery-finder`  (as done in Step0-b above) in `cov
 ## *If you want to find availability in Instacart then follow these three steps*
 
 ### Step 2.1
-> Go to instacart.com and login to your account. Take your time to add all your items in the shopping cart. Once you have all your desired items in the cart, then move to `Step 3`
+> Open instacart.com (on Google chrome browser) and login to your account. Take your time to add all your items in the shopping cart. Once you have all your desired items in the cart, then move to `Step 3`
 
 ### Step 2.2
 > Go to your cart page
@@ -54,14 +54,14 @@ https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/Step%202
 ## *If you want to find availability in Amazon Wholes Food then follow these three steps*
 
 ### Step 2.1
-> Go to amazon.com and take your time to add all your items in the shopping cart of Wholes Food (NOT Amazon Fresh). Once you have all your desired items in the cart, then move to `Step 3`
+> Open amazon.com (on Google Chrome browser) and take your time to add all your items in the shopping cart of Wholes Food (NOT Amazon Fresh). Once you have all your desired items in the cart, then move to `Step 3`
 
 ### Step 2.2
 > Go to your Whole Foods Market cart page
 ![Follow this step](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/wholesfood1.png)
 
 ### Step 2.3
-> On the checkout page, if there is no availability window, then you may see this page, then 
+> On the checkout page, if there is no availability window, then you may see this page. Then `right click` anywhere on this page and select `inspect` which will open a developer tool bar as shown below 
 ![follow this step to collect cookie](
 https://github.com/jvkumar/delivery-finder/blob/master/assets/wholesfood2_1.png)
 
