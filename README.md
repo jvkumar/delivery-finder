@@ -83,7 +83,7 @@ In the `delivery-finder` folder, you would find a file called `finder.js`. Open 
 ## Step 7
 Go to the terminal window at `/covid19/delivery-finder` folder 
 `You will have to open separate terminal windows for finding each retailer's availability window`
-when you are at `/covid19/delivery-finder` folder
+when you are at `/covid19/delivery-finder` folder, follow the step below:
 
 ```
 For instacart, run:
@@ -99,6 +99,10 @@ OR
 For Amazon Fresh, run:
 $ node finder.js -amazonfresh
 ```
+
+**An example**
+![example](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/start.png)
+
 
 In your output, if you see the following then you are all set.
 ```
