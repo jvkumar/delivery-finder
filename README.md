@@ -47,6 +47,7 @@ Move the downloaded folder `delivery-finder`  (as done in Step0-b above) in `cov
 ![follow this step to collect cookie](
 https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/Step%202%20and%203.png)
 
+> **Move to step 3 now**
 
 <hr>
 
@@ -63,6 +64,8 @@ https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/Step%202
 > On the checkout page, if there is no availability window, then you may see this page, then 
 ![follow this step to collect cookie](
 https://github.com/jvkumar/delivery-finder/blob/master/assets/wholesfood2_1.png)
+
+> **Move to step 3 now**
 
 <hr>
 
