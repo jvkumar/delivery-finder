@@ -102,6 +102,12 @@ $ node finder.js -amazonwholesfood
 ```
 OR
 ```
+For Costco Sameday, run:
+$ node finder.js -costcosameday
+```
+OR
+```
+NOT SUPPORTED YET
 For Amazon Fresh, run:
 $ node finder.js -amazonfresh
 ```

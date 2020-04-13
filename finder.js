@@ -25,8 +25,8 @@ let retalierConfig = {
     'cookie': instacartCookie,
     'cookieStr': 'instacartCookie'
   },
-  'costcoSameday': {
-    'label': 'CostcoSameday',
+  'costcosameday': {
+    'label': 'Costco Sameday',
     'url': 'https://sameday.costco.com/v3/retailers/5/delivery_options?source=web`',
     'signature': 'green_window',
     'responseDataType': 'json',
