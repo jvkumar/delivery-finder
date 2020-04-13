@@ -5,7 +5,12 @@
 **People are getting frustrated when they don't find grocery delivery window available for the online orders. So they have two options - (1) Step out of the home to buy grocery or (2) Keep checking MANUALLY 24/7 to get lucky to find available delivery window.**
 
 ## Solution: 
-**Run this bot, which will check the availability of delivery window of instacart and Amazon Wholesfood Market every minute and alert you as soon as it finds one.**
+**Run this script, which will check the availability of delivery window of `Instacart` or `Costco Same Day` or `Amazon Wholesfood Market` every minute and alert you as soon as it finds one. Currently this script checks available delivery windows for these retailers:**
+
+| ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_instacart.png)  | ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_wholesfood.png) | ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_costco-same-day.png) |
+| ------------- | ------------- | ------------- |
+
+
 
 <hr>
 
@@ -36,10 +41,10 @@ Move the downloaded folder `delivery-finder`  (as done in Step0-b above) in `cov
 ## Step 2
 <hr>
 
-## *If you want to find availability in Instacart then follow these three steps*
+## *If you want to find availability in Instacart or Costco SameDay then follow these three steps*
 
 ### Step 2.1
-> Open instacart.com (on Google chrome browser) and login to your account. Take your time to add all your items in the shopping cart. Once you have all your desired items in the cart, then move to `Step 3`
+> On Google Chrome browser - for instacart, open https://instacart.com or for Costco SameDay, open https://sameday.costco.com and login to your account. Take your time to add all your items in the shopping cart. Once you have all your desired items in the cart, then move to `Step 3`
 
 ### Step 2.2
 > Go to your cart page
@@ -57,7 +62,7 @@ https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/Step%202
 ## *If you want to find availability in Amazon Wholes Food then follow these three steps*
 
 ### Step 2.1
-> Open amazon.com (on Google Chrome browser) and take your time to add all your items in the shopping cart of Wholes Food (NOT Amazon Fresh). Once you have all your desired items in the cart, then move to `Step 3`
+> On Google Chrome browser - open https://amazon.com (on Google Chrome browser) and take your time to add all your items in the shopping cart of Wholes Food (NOT Amazon Fresh). Once you have all your desired items in the cart, then move to `Step 3`
 
 ### Step 2.2
 > Go to your Whole Foods Market cart page
@@ -126,10 +131,14 @@ If you see any error, then it means you need to correctly put the values of cook
 That's all!!
 
 ## What to expect next.
-Leave your computer plugged in and don't close it (let it remain connected to the internet). You may leave it in the low power mode if you wish. Let the terminal window remain opened and you may see progress there every minute. This finder will keep checking the availability window every minute, you may hear a [Beep sound](https://clyp.it/fjrsqftl) when it finds an availability. Then you just go to the opened instacart checkout page (as mentioned in step 7) and refresh it. You may see the availability window. *Remember there is no guarantee that this script will find a delivery window, unless retailer opens it (common sense) Sometime if you don't act fast enough then even if script alerted the delivery window, but you delayed in taking action, then the window may disappear) :wink:*
+Leave your computer plugged in and don't close it (let it remain connected to the internet). You may leave it in the low power mode if you wish. Let the terminal window remain opened and you may see progress there every minute. This finder will keep checking the availability window every minute, you may hear a [Beep sound](https://clyp.it/fjrsqftl) when it finds an availability. Then you just go to the opened retailer's checkout page (as mentioned in step 2) and refresh it. You may see the availability window. *Remember there is no guarantee that this script will find a delivery window, unless retailer opens it (common sense) Sometime if you don't act fast enough then even if script alerted the delivery window, but you delayed in taking action, then the window may disappear) :wink:*
 
 ## Any developer wants to contribute?
 You are welcome to send the PR
+
+## Thanks to these folks who contributed in the development of this script for supporting the cause.
+1. @dishant
+2. ?
 
 ## Disclaimer
 The author doesn't take any responsibility for any situation that may be the result of running this script. Please use it at your own risk.
