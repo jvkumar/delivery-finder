@@ -4,7 +4,7 @@
 const instacartCookie         = 'XXXXX'; //to find availability in Instacart, replace XXXXX with value of `cookie` you collected in Step 3
 const amazonWholesfoodCookie  = 'XXXXX'; //to find availability in Amazon Wholes Food, replace XXXXX with value of `cookie` you collected in Step 3
 const amazonFreshCookie       = 'XXXXX'; //to find availability in Amazon Fresh, replace XXXXX with value of `cookie` you collected in Step 3
-
+const costcoSamedayCookie     = 'XXXXX'; //to find availability in Costco Sameday, replace XXXXX with value of `cookie` you collected in Step 3
 //---------------------------------------------------------------------
 //---------------------DO NOT EDIT BELOW THIS LINE---------------------
 //---------------------------------------------------------------------
@@ -24,6 +24,14 @@ let retalierConfig = {
     'responseDataType': 'json',
     'cookie': instacartCookie,
     'cookieStr': 'instacartCookie'
+  },
+  'costcoSameday': {
+    'label': 'CostcoSameday',
+    'url': 'https://sameday.costco.com/v3/retailers/5/delivery_options?source=web`',
+    'signature': 'green_window',
+    'responseDataType': 'json',
+    'cookie': costcoSamedayCookie,
+    'cookieStr': 'costcoSamedayCookie'
   },
   'amazonfresh': {
     'label': 'Amazon Fresh',
