@@ -6,14 +6,14 @@ const authConfig = require('./config/auth').getAuthConfig()
 const { AMAZON_WHOLE_FOODS, INSTACART, COSTCO_SAME_DAY, AMAZON_FRESH, WALMART_GROCERIES } = require('./config/stores')
 
 const retalierConfig = {
-  amazonwholesfood: {
-    label: 'Amazon Wholes Food',
+  amazonwholefoods: {
+    label: 'Amazon Whole Foods',
     url: 'https://www.amazon.com/gp/buy/shipoptionselect/handlers/display.html?hasWorkingJavascript=1',
     signature: 'Next available',
     responseDataType: 'html',
     auth: authConfig[AMAZON_WHOLE_FOODS],
     cookie: authConfig[AMAZON_WHOLE_FOODS].cookie,
-    cookieStr: 'amazonWholesfoodCookie'
+    cookieStr: 'amazonWholefoodsCookie'
   },
   instacart: {
     label: 'InstaCart',
@@ -137,7 +137,7 @@ function pingRetailer (retailer, freqInterval, confirmConfig) {
           // Hoping server response may recover, so lets sleep for 2 minutes, and then restart with user input sleep timing
           sleep.sleep(2 * 60)
         }
-      } else if (retailer.cookieStr == 'amazonWholesfoodCookie') {
+      } else if (retailer.cookieStr == 'amazonWholefoodsCookie') {
         // Amazon wholesfood has different check - it returns 200 even cookie is wrong, so need to check the presence of this string
         if (!data.includes('Select a day')) {
           console.error(`** FAILED (CODE2) ** YOU HAVE INCORRECT VALUE OF ${retailer.cookieStr} AT THE TOP LINE OF finder.js`)

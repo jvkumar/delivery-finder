@@ -17,7 +17,7 @@
 ![](
 https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/delivery-finder.png)
 
-This is an effort to help people to get their groceries in this difficult time of COVID-19. This script helps you to find a delivery window of InstaCart and Amazon Wholes Food. The finder will alert (you will hear this [Beep sound](https://clyp.it/fjrsqftl) as an alert) you when it finds an availability window is open.
+This is an effort to help people to get their groceries in this difficult time of COVID-19. This script helps you to find a delivery window of many grocery retailers. The finder will alert (you will hear this [Beep sound](https://clyp.it/fjrsqftl) as an alert) you when it finds an availability window is open.
 *This is a barebone (unoptimized) script - `a quick & dirty hack`. If you are a developer, then feel free to send a PR to improve it*
 
 # How to use this finder
@@ -59,10 +59,10 @@ https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/Step%202
 
 <hr>
 
-## *If you want to find availability in Amazon Wholes Food then follow these three steps*
+## *If you want to find availability in Amazon Whole Foods then follow these three steps*
 
 ### Step 2.1
-> On Google Chrome browser - open https://amazon.com (on Google Chrome browser) and take your time to add all your items in the shopping cart of Wholes Food (NOT Amazon Fresh). Once you have all your desired items in the cart, then move to `Step 3`
+> On Google Chrome browser - open https://amazon.com (on Google Chrome browser) and take your time to add all your items in the shopping cart of Whole Foods (NOT Amazon Fresh). Once you have all your desired items in the cart, then move to `Step 3`
 
 ### Step 2.2
 > Go to your Whole Foods Market cart page
@@ -140,8 +140,8 @@ $ node finder.js -instacart
 ```
 OR
 ```
-For Amazon Wholes Food, run:
-$ node finder.js -amazonwholesfood
+For Amazon Whole Foods, run:
+$ node finder.js -amazonwholefoods
 ```
 OR
 ```

@@ -7,7 +7,7 @@ const instacart = {
   cookie: "XXXXX"
 }
 // to find availability in Amazon Wholes Food, replace XXXXX with value of `cookie` you collected in Step 3
-const amazonWholesfood = {
+const amazonWholefoods = {
   cookie: "XXXXX"
 }
 // to find availability in Amazon Fresh, replace XXXXX with value of `cookie` you collected in Step 3
@@ -28,7 +28,7 @@ const walmartGroceries = {
 
 module.exports.getAuthConfig = () => {
   return {
-    amazonwholesfood: amazonWholesfood,
+    amazonwholefoods: amazonWholefoods,
     instacart: instacart,
     costcosameday: costcoSameday,
     amazonfresh: amazonFresh,
