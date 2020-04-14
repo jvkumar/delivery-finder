@@ -5,10 +5,10 @@
 **People are getting frustrated when they don't find grocery delivery window available for the online orders. So they have two options - (1) Step out of the home to buy grocery or (2) Keep checking MANUALLY 24/7 to get lucky to find available delivery window.**
 
 ## Solution:
-**Run this script, which will check the availability of delivery window of `Instacart` or `Costco Same Day` or `Amazon Wholesfood Market` every minute and alert you as soon as it finds one. Currently this script checks available delivery windows for these retailers:**
+**Run this script, which will check the availability of delivery window of many retailers every minute and alert you as soon as it finds one. Currently this script checks available delivery windows for these retailers:**
 
-| ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_instacart.png)  | ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_wholesfood.png) | ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_costco-same-day.png) | ![](assets/walmart_logo.png)
-| ------------- | ------------- | ------------- |
+| ![](assets/logo_instacart.png)  | ![](assets/logo_wholesfood.png) | ![](assets/logo_costco-same-day.png) | ![](assets/logo_walmart.png)
+| ------------- | ------------- | ------------- | ------------- |
 
 
 
@@ -123,13 +123,11 @@ config
 ```
 
 ## Step 6
-Navigate to the `delivery-finder` folder and then go to `config/auth.js`. This file contains auth config - cookie, store id, cart id, etc. for all the stores.
+Navigate to the `delivery-finder` folder and then go to `config/auth.js`. 
 
-Open this file in any editor of your choice. You will find auth config for different store. Each config will contain one of the following - cookie, cart_id & store_id [**Note**: not all store will need all information].
+Open `auth.js` file in any editor of your choice. You will find configuration for different retailers. For your desired retailer(s), change the value of string `XXXXX` in `cookie: 'XXXXX'` to your desired retailer(s)'s cookie value, that you have collected in step2 above. However for `Walmart`, you would need to add two more pieces of information. They are `store_id: XXXXX` and `cart_id: XXXXX`.
 
-Whichever retailer's auth information you collected in step2 above, replace the `XXXXX`'s with the corresponding information. You can input multiple retailer's' cookies value by replacing the corresponding `XXXXX`. Then save the file.
-
-![example](assets/config1.png)
+![example](assets/config2.png)
 
 ## Step 7
 Go to the terminal window at `/covid19/delivery-finder` folder
@@ -187,7 +185,8 @@ Leave your computer plugged in and don't close it (let it remain connected to th
 You are welcome to send the PR
 
 ## Thanks to these folks who contributed in the development of this script for supporting the cause.
-1. [@dishant](https://github.com/dishant)
+1. [dishant](https://github.com/dishant)
+1. [parikhv15](https://github.com/parikhv15)
 
 
 ## Disclaimer
