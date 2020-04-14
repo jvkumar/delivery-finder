@@ -18,11 +18,11 @@ const costcoSameday = {
   cookie: 'XXXXX'
 }
 
-// to find availability in Walmart Groceries, replace XXXXX with value of `cookie` you collected in Step 3
+// to find availability in Walmart Groceries, replace XXXXX with value of `cookie`, `cart id` & `store id` you collected in Step 3
 const walmartGroceries = {
   cookie: 'XXXXX',
-  store_id: 'YYYYY',
-  cart_id: 'ZZZZZ'
+  store_id: 'XXXXX',
+  cart_id: 'XXXXX'
 }
 
 module.exports.getAuthConfig = () => {

@@ -109,11 +109,27 @@ https://github.com/jvkumar/delivery-finder/blob/master/assets/wholesfood2_1.png)
 *IMPORTANT* - Make sure you don't close the retailer's checkout page (from where you collected the cookie) ever while this finder is running. So let the page remain opened.
 
 ## Step 5
-Go to `covid19` folder and then subfolder `delivery-finder` subfolder where this finder codebase is residing.
+Go to `delivery-finder` folder where the finder codebase is residing. Below is the directory structure of the code:
+
+```
+delivery-finder
+│   finder.js           // Entry point to our codebase    
+│
+config
+│   │   auth.js         // File containing Auth config for the stores
+│   │   stores.js       // Constants file containing all the store names
+│   
+│   .eslintrc           // ESLint config file for the project
+```
 
 ## Step 6
-In the `delivery-finder` folder, you would find a file called `finder.js`. Open that file in any editor and at the top of the file, you will find keys for three different retailers' cookies (lines 4,5 and 6). Whichever retailer's cookie you collected in step2 above, then replace the value of `XXXXX` with the collected cookie value. You can input multiple retaliers' cookies value by replacing the corresponding `XXXXX`. Then save the file.
-![example](https://github.com/jvkumar/delivery-finder/blob/master/assets/config1.png)
+Navigate to the `delivery-finder` folder and then go to `config/auth.js`. This file contains auth config - cookie, store id, cart id, etc. for all the stores.
+
+Open this file in any editor of your choice. You will find auth config for different store. Each config will contain one of the following - cookie, cart_id & store_id [**Note**: not all store will need all information].
+
+Whichever retailer's auth information you collected in step2 above, replace the `XXXXX`'s with the corresponding information. You can input multiple retailer's' cookies value by replacing the corresponding `XXXXX`. Then save the file.
+
+![example](assets/config1.png)
 
 ## Step 7
 Go to the terminal window at `/covid19/delivery-finder` folder
@@ -133,6 +149,16 @@ OR
 ```
 For Costco Sameday, run:
 $ node finder.js -costcosameday
+```
+OR
+```
+For Walmart Pickup, run:
+$ node finder.js -walmartgroceriespickup
+```
+OR
+```
+For Walmart Pickup, run:
+$ node finder.js -walmartgroceriesdelivery
 ```
 OR
 ```
@@ -162,7 +188,7 @@ You are welcome to send the PR
 
 ## Thanks to these folks who contributed in the development of this script for supporting the cause.
 1. [@dishant](https://github.com/dishant)
-2. ?
+
 
 ## Disclaimer
 The author doesn't take any responsibility for any situation that may be the result of running this script. Please use it at your own risk.
