@@ -25,18 +25,11 @@ This is an effort to help people to get their groceries in this difficult time o
 
 ## Step 0
 
-*a)* Install `npm` and `nodejs` -
+Install `npm` and `nodejs` -
 To do so, go to https://nodejs.org/en/ and download any version of the binary, that will be used for installing `node` as well as `npm`. Then double click the downloaded binary and follow the instructions to install `npm` as well as `node` . To confirm the installation, open your terminal.app window and run `node -v` if that outputs a version number, then you are good to move forward.
 
-*b)* Download (or clone) this repo by clicking the green "Clone or Download" button shown above. If you have downloaded, then unzip the downloaded folder (`delivery-finder-master`) and rename the folder to `delivery-finder`
-
 ## Step 1
-Assuming you are on Mac OS, so open a terminal window and create a folder, let's say, `covid19`
-```
-$ mkdir covid19
-$ cd covid19
-```
-Move the downloaded folder `delivery-finder`  (as done in Step0-b above) in `covid19` folder
+Download (or clone) this repo by clicking the green "Clone or Download" button shown above. If you have downloaded, then unzip the downloaded folder (`delivery-finder-master`) and rename the folder to `delivery-finder`
 
 ## Step 2
 <hr>
@@ -109,7 +102,7 @@ https://github.com/jvkumar/delivery-finder/blob/master/assets/wholesfood2_1.png)
 *IMPORTANT* - Make sure you don't close the retailer's checkout page (from where you collected the cookie) ever while this finder is running. So let the page remain opened.
 
 ## Step 5
-Go to `delivery-finder` folder where the finder codebase is residing. Below is the directory structure of the code:
+Go to downloaded `delivery-finder` folder where the finder codebase is residing. Below is the directory structure of the code:
 
 ```
 delivery-finder
@@ -130,9 +123,9 @@ Open `auth.js` file in any editor of your choice. You will find configuration fo
 ![example](assets/config2.png)
 
 ## Step 7
-Go to the terminal window at `/covid19/delivery-finder` folder
+Go to the terminal window at `delivery-finder` folder
 `You will have to open separate terminal windows for finding each retailer's availability window`
-when you are at `/covid19/delivery-finder` folder, follow the step below:
+when you are at `/delivery-finder` folder, follow the step below:
 
 ```
 For instacart, run:
