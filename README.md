@@ -125,7 +125,7 @@ config
 ## Step 6
 Navigate to the `delivery-finder` folder and then go to `config/auth.js`. 
 
-Open this file in any editor of your choice. You will find configuration for different retailers. For your desired retailer(s), change the value of string `XXXXX` in `cookie: 'XXXXX'` to your desired retailer(s)'s cookie value, that you have collected in step2 above. However for `Walmart`, you would need to add two more pieces of information. They are `store_id: XXXXX` and `cart_id: XXXXX`.
+Open `auth.js` file in any editor of your choice. You will find configuration for different retailers. For your desired retailer(s), change the value of string `XXXXX` in `cookie: 'XXXXX'` to your desired retailer(s)'s cookie value, that you have collected in step2 above. However for `Walmart`, you would need to add two more pieces of information. They are `store_id: XXXXX` and `cart_id: XXXXX`.
 
 ![example](assets/config2.png)
 
