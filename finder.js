@@ -4,7 +4,6 @@
 // ---------------------------------------------------------------------
 const authConfig = require('./config/auth').getAuthConfig()
 const { AMAZON_WHOLE_FOODS, INSTACART, COSTCO_SAME_DAY, AMAZON_FRESH, WALMART_GROCERIES } = require('./config/stores')
-const gunzip = require('zlib').createGunzip()
 
 const retalierConfig = {
   amazonwholesfood: {
@@ -63,11 +62,12 @@ const retalierConfig = {
   }
 }
 
-let checkingInEveryXminutes = 1 // Minimum value is 1 minute
+const gunzip = require('zlib').createGunzip()
 const sleep = require('sleep')
 const https = require('https')
 const player = require('play-sound')()
-const minFrequency = 1
+let   checkingInEveryXminutes = 1 
+const minFrequency = 1 // Minimum value is 1 minute
 
 // Don't bombard by checking in every less than minFrequency minute(s)
 checkingInEveryXminutes = (checkingInEveryXminutes < minFrequency) ? minFrequency : checkingInEveryXminutes
@@ -91,7 +91,7 @@ const retailer = retalierConfig[retailerNamePassed]
 
 function beep () {
   player.play('beep.mp3', function (err) {
-
+    
   })
 }
 
@@ -133,7 +133,7 @@ function pingRetailer (retailer, freqInterval, confirmConfig) {
         if (confirmConfig) { // return only first time, else continue
           return
         } else {
-          console.log('Retailers server encountered some hiccup, so waiting for 2 minutes before restarting with hope server will come back. If this message keeps showing for more than 5 times, then manually kill the script and start again. In rare case, retailer may expire the cookie, if that is the case, then re-collect the cookie and enter it at top of finder.js again.')
+          console.log('Retailers server encountered some hiccup, so waiting for 2 minutes before restarting with hope server will recover. If this message keeps showing for more than 5 times, then manually kill the script and start again. In rare case, retailer may expire the cookie, if that is the case, then re-collect the cookie and enter in config/auth.js again.')
           // Hoping server response may recover, so lets sleep for 2 minutes, and then restart with user input sleep timing
           sleep.sleep(2 * 60)
         }
