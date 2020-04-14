@@ -185,7 +185,7 @@ Leave your computer plugged in and don't close it (let it remain connected to th
 You are welcome to send the PR
 
 ## Thanks to these folks who contributed in the development of this script for supporting the cause.
-1. [@dishant](https://github.com/dishant)
+1. [dishant](https://github.com/dishant)
 1. [parikhv15](https://github.com/parikhv15)
 
 
