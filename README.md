@@ -7,7 +7,7 @@
 ## Solution:
 **Run this script, which will check the availability of delivery window of `Instacart` or `Costco Same Day` or `Amazon Wholesfood Market` every minute and alert you as soon as it finds one. Currently this script checks available delivery windows for these retailers:**
 
-| ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_instacart.png)  | ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_wholesfood.png) | ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_costco-same-day.png) |
+| ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_instacart.png)  | ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_wholesfood.png) | ![](https://raw.githubusercontent.com/jvkumar/delivery-finder/master/assets/logo_costco-same-day.png) | ![](assets/walmart_logo.png)
 | ------------- | ------------- | ------------- |
 
 
