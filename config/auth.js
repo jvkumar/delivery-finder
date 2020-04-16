@@ -4,7 +4,7 @@
 // Cookies in this case can be thousands of characters. Please put all of it here.
 // to find availability in Instacart, replace XXXXX with value of `cookie` you collected in Step 3
 const instacart = {
-  cookie: ""
+  cookie: "XXXXX"
 }
 // to find availability in Amazon Wholes Food, replace XXXXX with value of `cookie` you collected in Step 3
 const amazonWholefoods = {
