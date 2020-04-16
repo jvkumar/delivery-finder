@@ -62,7 +62,6 @@ const retalierConfig = {
   }
 }
 
-const gunzip = require('zlib').createGunzip()
 const sleep = require('sleep')
 const https = require('https')
 const player = require('play-sound')()
@@ -106,14 +105,13 @@ function pingRetailer (retailer, freqInterval, confirmConfig) {
   const req = https.get(retailer.url, options, resp => {
     let data = ''
 
-    resp.pipe(gunzip)
     // A chunk of data has been recieved.
-    gunzip.on('data', (chunk) => {
+    resp.on('data', (chunk) => {
       data += chunk
     })
 
     // The whole response has been received.
-    gunzip.on('end', () => {
+    resp.on('end', () => {
       let responseString = ''
       if (resp.statusCode != 200) {
         if (confirmConfig) {
