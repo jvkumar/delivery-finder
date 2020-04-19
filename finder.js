@@ -97,8 +97,7 @@ function beep () {
 function pingRetailer (retailer, freqInterval, confirmConfig) {
   const options = {
     headers: {
-      cookie: retailer.cookie,
-      'Accept-Encoding': 'gzip, deflate, br'
+      cookie: retailer.cookie
     }
   }
 
