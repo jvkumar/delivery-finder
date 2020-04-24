@@ -8,7 +8,7 @@ const instacart = {
 }
 // to find availability in Amazon Wholes Food, replace XXXXX with value of `cookie` you collected in Step 3
 const amazonWholefoods = {
-  cookie: "XXXXX"
+  cookie: 'XXXXX'
 }
 // to find availability in Amazon Fresh, replace XXXXX with value of `cookie` you collected in Step 3
 const amazonFresh = {

@@ -124,8 +124,11 @@ Open `auth.js` file in any editor of your choice. You will find configuration fo
 
 ## Step 7
 Go to the terminal window at `delivery-finder` folder
-`You will have to open separate terminal windows for finding each retailer's availability window`
-when you are at `/delivery-finder` folder, follow the step below:
+
+And run this command
+`npm install`
+
+Please note, you will have to open `separate terminal windows` for finding each retailer's delivery availability. Now at `/delivery-finder` folder in the terminal window, follow the step below:
 
 ```
 For instacart, run:

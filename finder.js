@@ -62,7 +62,6 @@ const retalierConfig = {
   }
 }
 
-const gunzip = require('zlib').createGunzip()
 const sleep = require('sleep')
 const https = require('https')
 const player = require('play-sound')()
@@ -98,22 +97,20 @@ function beep () {
 function pingRetailer (retailer, freqInterval, confirmConfig) {
   const options = {
     headers: {
-      cookie: retailer.cookie,
-      'Accept-Encoding': 'gzip, deflate, br'
+      cookie: retailer.cookie
     }
   }
 
   const req = https.get(retailer.url, options, resp => {
     let data = ''
 
-    resp.pipe(gunzip)
     // A chunk of data has been recieved.
-    gunzip.on('data', (chunk) => {
+    resp.on('data', (chunk) => {
       data += chunk
     })
 
     // The whole response has been received.
-    gunzip.on('end', () => {
+    resp.on('end', () => {
       let responseString = ''
       if (resp.statusCode != 200) {
         if (confirmConfig) {
@@ -155,8 +152,7 @@ function pingRetailer (retailer, freqInterval, confirmConfig) {
       } else {
         const responseString = data
       }
-      console.log(responseString)
-      console.log(retailer.signature)
+      
       if (responseString.indexOf(retailer.signature) > -1) {
         console.log(`${new Date().toString()} - ******** WOHOOOO FOUND A DELIVERY WINDOW, GO TO YOUR ALREADY OPENED CART WEB PAGE AND REFRESH THE PAGE TO SEE AVAILABLE WINDOWS *********`)
         while (true) {
