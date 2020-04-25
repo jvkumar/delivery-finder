@@ -44,8 +44,8 @@ const retalierConfig = {
   },
   walmartgroceriespickup: {
     label: 'Walmart Groceries - Pickup',
-    url: `https://grocery.walmart.com/v4/api/accessPoints/${authConfig[WALMART_GROCERIES].store_id}/slots?contractId=${authConfig[WALMART_GROCERIES].cart_id}&fulfillmentType=INSTORE_PICKUP&express=true&mergedSlots=true&restrictedSlots=true`,
-    signature: '"available":true',
+    url: `https://grocery.walmart.com/v4/api/accessPoints/${authConfig[WALMART_GROCERIES].store_id}/slots?cartId=${authConfig[WALMART_GROCERIES].cart_id}&fulfillmentType=INSTORE_PICKUP&express=true&mergedSlots=true&restrictedSlots=true`,
+    signature: '\\"available\\":true',
     responseDataType: 'json',
     auth: authConfig[WALMART_GROCERIES],
     cookie: authConfig[WALMART_GROCERIES].cookie,
@@ -54,7 +54,7 @@ const retalierConfig = {
   walmartgroceriesdelivery: {
     label: 'Walmart Groceries - Delivery',
     url: `https://grocery.walmart.com/v4/api/accessPoints/${authConfig[WALMART_GROCERIES].store_id}/slots?contractId=${authConfig[WALMART_GROCERIES].cart_id}&fulfillmentType=DELIVERY&express=true&mergedSlots=true&restrictedSlots=true`,
-    signature: '"available":true',
+    signature: '\\"available\\":true',
     responseDataType: 'json',
     auth: authConfig.walmartgroceries,
     cookie: authConfig[WALMART_GROCERIES].cookie,
@@ -65,7 +65,7 @@ const retalierConfig = {
 const sleep = require('sleep')
 const https = require('https')
 const player = require('play-sound')()
-let   checkingInEveryXminutes = 1 
+let   checkingInEveryXminutes = 1
 const minFrequency = 1 // Minimum value is 1 minute
 
 // Don't bombard by checking in every less than minFrequency minute(s)
@@ -90,7 +90,7 @@ const retailer = retalierConfig[retailerNamePassed]
 
 function beep () {
   player.play('beep.mp3', function (err) {
-    
+
   })
 }
 
@@ -152,7 +152,7 @@ function pingRetailer (retailer, freqInterval, confirmConfig) {
       } else {
         const responseString = data
       }
-
+      
       if (responseString.indexOf(retailer.signature) > -1) {
         console.log(`${new Date().toString()} - ******** WOHOOOO FOUND A DELIVERY WINDOW, GO TO YOUR ALREADY OPENED CART WEB PAGE AND REFRESH THE PAGE TO SEE AVAILABLE WINDOWS *********`)
         while (true) {
